@@ -1,0 +1,210 @@
+body {
+    margin: 0;
+    padding: 0;
+    transition: all 1s ease-in-out;
+    background-image: linear-gradient(180deg,#B3C8CF, rgba(255, 255, 0, 0.445),#CADABF);
+}
+
+body a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.container {
+    padding: 0 5rem;
+}
+
+.flex {
+    display: flex;
+}
+
+ul,
+ol {
+    list-style: none;
+    margin: 0;
+}
+
+header {
+    background-color: #00214dd5;
+    color: #fff;
+    position: fixed;
+    width: 100%;
+}
+
+header img {
+    height: 4rem;
+    border-radius: 50%;
+}
+
+header ul,
+header ol {
+    display: flex;
+    align-items: center;
+}
+
+header ul {
+    padding: .5rem 0;
+}
+
+header .head1 li {
+    margin: 0 1rem;
+}
+
+header .head2 li {
+    margin: 0 2rem;
+    font-size: large;
+}
+
+header .head2 {
+    margin-left: auto;
+}
+header .head2 li:hover a{
+    color: #ffffffa8;
+}
+
+#about {
+    padding-top: 10rem;
+}
+
+#skills,
+#projects,
+#education {
+    padding: 4rem 0;
+}
+
+#about img {
+    height: 25rem;
+    border-radius: 50%;
+    margin-left: 8rem;
+}
+
+#about h1,
+#skills h1,
+#projects h1,
+#education h1,
+#contact h1 {
+    font-size: 2.5rem;
+}
+
+#about p {
+    font-size: larger;
+}
+
+#skills .container {
+    padding: 0 2rem;
+    text-align: center;
+}
+
+#skills .flex {
+    align-items: center;
+}
+
+#skills li {
+    border-radius: 2rem;
+    padding: 1.5rem 0.8rem 0.8rem 0.8rem;
+    margin: 0 .5rem;
+    box-shadow: 1px 2px 8px 0px rgba(0, 0, 0, 0.329);
+    text-align: center;
+    width: 8rem;
+    height: 8rem;
+    font-weight: bold;
+}
+#skills li:hover{
+    box-shadow: 1px 2px 8px 3px rgba(0, 0, 0, 0.329);
+}
+
+#projects {
+    text-align: center;
+}
+
+#projects .flex {
+    justify-content: space-around;
+}
+
+#projects li {
+    border-radius: 2.5rem 5.5rem;
+    padding: 1.5rem 1.5rem 0.8rem 1.5rem;
+    box-shadow: 1px 2px 8px 0px rgba(0, 0, 0, 0.329);
+}
+#projects li:hover{
+    box-shadow: 1px 2px 8px 3px rgba(0, 0, 0, 0.329);
+}
+
+#education,
+#contact {
+    text-align: center;
+}
+
+#education .flex {
+    justify-content: space-around;
+}
+
+#education li {
+    border-radius: 2.5rem 5.5rem;
+    margin: 2rem 0;
+    width: 25rem;
+    padding: 1.5rem 2rem 0.8rem 2rem;
+    box-shadow: 1px 2px 8px 0px rgba(0, 0, 0, 0.329);
+}
+
+#education h4 {
+    font-size: large;
+}
+
+#education li:hover{
+    box-shadow: 1px 2px 8px 3px rgba(0, 0, 0, 0.329);
+}
+
+#contact p {
+    font-size: large;
+}
+
+#contact a {
+    color: #000;
+}
+
+#contact .details p {
+    margin: 2rem auto;
+    border: 1px solid rgba(0, 0, 0, 0.623);
+    width: fit-content;
+    border-radius: 20%;
+    padding: .5rem 2rem;
+}
+#contact .details p:hover{
+    transform: scale(1.2);
+}
+footer{
+    text-align: center;
+    padding: 3rem 0 .5rem 0;
+    background-color: #24425d;
+    margin: 0;
+}
+footer .resume a{
+    border: 1px solid rgba(255, 255, 255, 0.623);
+    width: fit-content;
+    border-radius: 20%;
+    padding: .5rem 2rem;
+}
+footer .resume p:hover{
+    transform: scale(1.2);
+}
+footer hr{
+    margin: 2rem 0;
+    width: 100%;
+}
+footer .flex{
+    justify-content: center;
+}
+footer .social a{
+    padding: 1.5rem .8rem .6rem .8rem;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    margin: 0 1rem;
+}
+footer .copyright{
+    margin-top: 2rem;
+    color: #fff;
+}
+footer .social p:hover{
+    transform: scale(0.8);
+}
